@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Way Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="converter-card">
+        <h2>Temperature Converter</h2>
+
+        <!-- Celsius Input -->
+        <div class="input-group">
+            <label for="celsius">Celsius</label>
+            <div class="input-wrapper">
+                <input type="number" id="celsius" placeholder="Enter Celsius" step="any">
+                <span class="unit-badge">°C</span>
+            </div>
+        </div>
+
+        <!-- Fahrenheit Input -->
+        <div class="input-group">
+            <label for="fahrenheit">Fahrenheit</label>
+            <div class="input-wrapper">
+                <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit" step="any">
+                <span class="unit-badge">°F</span>
+            </div>
+        </div>
+
+        <!-- Kelvin Input -->
+        <div class="input-group">
+            <label for="kelvin">Kelvin</label>
+            <div class="input-wrapper">
+                <input type="number" id="kelvin" placeholder="Enter Kelvin" step="any">
+                <span class="unit-badge">K</span>
+            </div>
+        </div>
+
+        <button class="btn-clear" id="clearBtn">Clear All</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
