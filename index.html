@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Infobyte Internship Portal</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <a href="#" class="logo">Oasis <span>Infobyte</span></a>
+        <div class="nav-right">
+            <button class="theme-toggle" id="themeToggle">
+                🌙 <span>Dark Mode</span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">Benefits</a></li>
+                <li><a href="#domains" class="nav-item">Domains</a></li>
+                <li><a href="#tasks" class="nav-item">Tasks</a></li>
+                <li><a href="#domains" class="cta-btn nav-item">Apply Now</a></li>
+            </ul>
+            <div class="burger" id="burgerMenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Kickstart Your Career with <span>Oasis Infobyte</span> Internships</h1>
+            <p>Gain hands-on corporate exposure, master in-demand industry skills, and build a stellar portfolio under the guidance of expert mentors.</p>
+            <a href="#domains" class="cta-btn text-decoration-none">Explore Programs</a>
+        </div>
+        <div class="hero-image">
+            <svg width="450" height="350" viewBox="0 0 500 400" fill="none" xmlns="http://w3.org">
+                <rect width="500" height="400" rx="20" fill="#0076fe" fill-opacity="0.05"/>
+                <circle cx="250" cy="200" r="120" fill="#0076fe" fill-opacity="0.1"/>
+                <path d="M150 250 L220 180 L280 230 L380 130" stroke="#0076fe" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="380" cy="130" r="8" fill="#0076fe"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section" id="about">
+        <h2 class="section-title">Why Intern With Us?</h2>
+        <p class="section-subtitle">We bridge the gap between classroom education and corporate realities by creating real-world professional experiences.</p>
+        
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Real-World Projects</h3>
+                <p>Work on actual live application structures and tackle unique problems relevant to today's tech market.</p>
+            </div>
+            <div class="about-card">
+                <h3>Verified Certification</h3>
+                <p>Receive an official industry-recognized internship certificate upon successful tracking and milestone completion.</p>
+            </div>
+            <div class="about-card">
+                <h3>Flexible Learning</h3>
+                <p>Manage your tasks seamlessly with completely remote structures built to adapt around your college schedule.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Domains Section -->
+    <section class="section domains" id="domains">
+        <h2 class="section-title">Available Internship Tracks</h2>
+        <p class="section-subtitle">Choose from a variety of distinct technical paths specifically mapped to accelerate your personal career goals.</p>
+        
+        <div class="domain-grid">
+            <div class="domain-card">
+                <h3>Web Development</h3>
+                <p>Build modern responsive websites using HTML, CSS, JavaScript, and advanced frontend frameworks.</p>
+                <button class="apply-now-btn" data-domain="Web Development">Apply Domain</button>
+            </div>
+            <div class="domain-card">
+                <h3>Data Science</h3>
+                <p>Dive deep into analytics, data processing pipelines, predictive modeling, and automated machine learning solutions.</p>
+                <button class="apply-now-btn" data-domain="Data Science">Apply Domain</button>
+            </div>
+            <div class="domain-card">
+                <h3>Java Development</h3>
+                <p>Master robust backend system architectures, application builds, and scalable data structure logic using Java.</p>
+                <button class="apply-now-btn" data-domain="Java Development">Apply Domain</button>
+            </div>
+            <div class="domain-card">
+                <h3>Android Development</h3>
+                <p>Design functional layouts, native component frameworks, and publishable systems directly for mobile ecosystems.</p>
+                <button class="apply-now-btn" data-domain="Android Development">Apply Domain</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Tasks Explorer Section -->
+    <section class="section tasks-section" id="tasks">
+        <h2 class="section-title">Project Tasks Explorer</h2>
+        <p class="section-subtitle">Click on the tracks below to review the typical milestones you will master during the internship curriculum.</p>
+        
+        <div class="task-tabs">
+            <button class="tab-btn active" data-track="Web Development">Web Dev</button>
+            <button class="tab-btn" data-track="Data Science">Data Science</button>
+            <button class="tab-btn" data-track="Java Development">Java Dev</button>
+            <button class="tab-btn" data-track="Android Development">Android Dev</button>
+        </div>
+
+        <div class="task-display-card" id="taskContentBox">
+            <h3 id="taskTrackTitle">Web Development Project Track</h3>
+            <p id="taskTrackDesc">Get comprehensive experience constructing structural interfaces and highly semantic designs.</p>
+            <ul class="task-list" id="taskListItems">
+                <li>Task 1: Landing Page UI layout building using basic HTML5 and clean modern CSS structures.</li>
+                <li>Task 2: Build a Personal Portfolio Web App featuring modular components and structural grid setups.</li>
+                <li>Task 3: Dynamic Calculator Engine deployment parsing programmatic expressions using JavaScript modules.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Modal Form Popup -->
+    <div class="modal" id="applicationModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModalBtn">&times;</span>
+            <h2>Internship Application</h2>
+            <p>Provide your details down below to register and lock down your tracking domain.</p>
+            
+            <form id="internshipForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="johndoe@example.com">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" required placeholder="+91 98765 43210">
+                    </div>
+                    <div class="form-group">
+                        <label for="selectedTrack">Selected Track</label>
+                        <select id="selectedTrack">
+                            <option value="Web Development">Web Development</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="Java Development">Java Development</option>
+                            <option value="Android Development">Android Development</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="resumeLink">Resume / Portfolio Link</label>
+                    <input type="url" id="resumeLink" required placeholder="https://linkedin.com">
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Oasis Infobyte Internship Portal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
