@@ -64,22 +64,12 @@ No installation or server is needed.
 
 ## 📸 Screenshots
 
-
-
 ![Home screen](Screenshots/home.png)
-
-
-
 
 ![Result](Screenshots/result.png)
 
-
-
-
-
-
 ## 👩‍💻 Author
-
+Venu Priya
 Web Development & Designing Intern, Oasis Infobyte
 GitHub: [venu-priya](https://github.com/venu-priya)
 
