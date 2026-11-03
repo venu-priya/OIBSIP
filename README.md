@@ -64,9 +64,9 @@ No installation or server is needed.
 
 ## 📸 Screenshots
 
-![Home screen](Screenshots/home.png)
+![Home screen](home.png)
 
-![Result](Screenshots/result.png)
+![Result](result.png)
 
 ## 👩‍💻 Author
 Venu Priya
