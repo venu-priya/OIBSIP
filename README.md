@@ -9,6 +9,6 @@ Oasis Infobyte Summer Internship Program: Web Development & Designing (Level 1)
 | 2 | Personal Portfolio | [WebDev-L1-PersonalPortfolio](WebDev-L1-PersonalPortfolio) |
 | 3 | Temperature Converter | [WebDev-L1-TemperatureConverter](WebDev-L1-TemperatureConverter) |
 
-**Author:** [Your Full Name](https://github.com/venu-priya)
+**Author:** [Venu Priya](https://github.com/venu-priya)
 
 #oasisinfobyte #webdevelopment #internship
