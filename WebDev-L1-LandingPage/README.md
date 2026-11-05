@@ -2,9 +2,6 @@
 
 A modern, fast, and completely responsive landing page built with semantic HTML5, CSS3 variables, and vanilla JavaScript. This page features an interactive user interface designed to showcase internship tracks, display learning milestones, handle applicant intake, and offer a user-controlled dark theme toggle.
 
-## 🚀 Live Demo
-*Link your hosted site here (e.g., GitHub Pages, Vercel, Netlify)*
-
 ## ✨ Key Features
 - **Modern Responsive Design**: Fluid layouts optimized seamlessly for Mobile, Tablet, and Desktop screens.
 - **Dynamic Task Explorer**: Interactive modular tab selectors built to render specific domain syllabus objectives on click.
