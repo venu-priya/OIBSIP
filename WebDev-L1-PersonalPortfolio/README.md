@@ -2,9 +2,6 @@
 
 A sleek, responsive, single-page web application architecture crafted to exhibit personal academic accomplishments, specialized code assets, functional software applications, and dynamic engagement form endpoints.
 
-## 🚀 Live Demo
-*Link your hosted portfolio here (e.g., GitHub Pages, Vercel, Netlify)*
-
 ## ✨ Key Features
 - **Smooth Navigation Traversal**: Employs sleek structural window scroll patterns linked to tracking nav anchors.
 - **Filterable Project Matrix**: Dynamic item arrangement filters that showcase targeted tech domains (Web Dev, Data Science, Android) flawlessly.
