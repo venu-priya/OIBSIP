@@ -35,3 +35,9 @@ A modern, fast, and completely responsive landing page built with semantic HTML5
    ```
 3. **Launch the platform:**
    - Double-click the `index.html` file inside your explorer to run the instance directly inside your default web browser.
+
+## Screenshots
+   ![firstpic](first.png)
+   ![second pic](second.png)
+
+
